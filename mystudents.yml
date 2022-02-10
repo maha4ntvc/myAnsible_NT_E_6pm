@@ -1,0 +1,26 @@
+---
+- myStudents: 
+    - name:  anil 
+      phno: 78979878979
+      address: 
+         - doorno: 6786
+         - streat: 798789
+         - pincode: 798798798
+
+    - name:  raju
+      phno: 89878998789
+      address: 
+       - doorno: 678
+       - streat: 7987
+       - pincode: 6786876
+
+    - name:  vasu
+      phno: 8678789789
+      address: 
+         - doorno: 7868
+         - streat: 876876
+         - pincode: 78678687687
+       
+       
+
+     
