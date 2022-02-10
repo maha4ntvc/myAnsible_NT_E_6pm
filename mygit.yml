@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: i want to intall git on ansible ubuntu nodes
+    apt:
+       name: git
+       state: present
