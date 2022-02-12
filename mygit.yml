@@ -6,3 +6,8 @@
     apt:
        name: git
        state: present
+
+  - name: i want to install tree on ansbile ubuntu  nodes
+    apt:
+      name: tree
+      state: present
