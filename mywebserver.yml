@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: mywebservers
   become: yes
   tasks:
   - name: i want to install web server on ansbile node
