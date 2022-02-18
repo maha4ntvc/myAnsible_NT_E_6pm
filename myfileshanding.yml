@@ -2,7 +2,10 @@
 - hosts: 172.31.21.9 
   become: yes
   tasks:
-  - name: create file on  ansible nodes
-    file:
-      path: /home/ubuntu/mytestfile
-      state: touch
+  - include_tasks: myfile.yml
+  
+  - name: i want to install webserver
+    apt:
+      name: apache3
+      state: present
+
