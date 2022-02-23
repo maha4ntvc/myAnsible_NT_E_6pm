@@ -3,4 +3,3 @@
   systemd:
     name: tomcat
     state: restarted
-    
