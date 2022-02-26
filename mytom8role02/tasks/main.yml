@@ -1,2 +1,12 @@
 ---
 # tasks file for mytom8role02
+- include_tasks: installjava.yml
+- include_tasks: TomcatUser.yml
+- include_tasks: InstallTomcat.yml
+- include_tasks: UpdatePermissions.yml
+- include_tasks: ServiceFile.yml
+- include_tasks: starttomcat.yml
+- include_tasks: WebInterface.yml
+- include_tasks: deployjavaapplication.yml
+- include_tasks: restart.yml
+
